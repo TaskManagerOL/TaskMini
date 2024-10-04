@@ -25,7 +25,7 @@ function TouchComponent() {
   }
 }
 
-export default function UserBoardPage({maindata}) {
+export default function UserBoardPage({maindata}:{maindata:DataItem[][]}) {
   const Touch = TouchComponent()
   console.log(maindata);
 

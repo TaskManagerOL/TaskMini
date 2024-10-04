@@ -1,5 +1,5 @@
 'use client';
-export default function EnemyBoardPage({maindata}) {
+export default function EnemyBoardPage({maindata}:{maindata:DataItem[][]}) {
   console.log(maindata);
   return (
     <main className="w-full h-full bg-[#f2f2f2] border-[2px] border-[red]">
