@@ -1,4 +1,6 @@
 'use client';
+import { TypeDetail,DataItem } from "../../gameboard/layout";
+
 export default function EnemyBoardPage({maindata}:{maindata:DataItem[][]}) {
   console.log(maindata);
   return (

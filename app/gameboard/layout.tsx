@@ -1,11 +1,11 @@
 import React from "react";
 
-type TypeDetail = {
+export type TypeDetail = {
   type:string;
   num?:number;
 }
 
-type DataItem = {
+export type DataItem = {
   id: number;
   type: TypeDetail;
   hp?: number;

@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeDetail,DataItem } from "../../gameboard/layout";
 
 export default function EnemyBoardLayout({
   children,

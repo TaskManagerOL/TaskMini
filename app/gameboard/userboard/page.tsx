@@ -1,4 +1,5 @@
 'use client';
+import { TypeDetail,DataItem } from "../../gameboard/layout";
 
 function TouchComponent() {
   const handleTouchStart = () => {
