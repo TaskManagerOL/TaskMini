@@ -5,7 +5,6 @@ export default function EnemyBoardLayout({
   maindata,
 }: Readonly<{
   children: React.ReactNode;
-  maindata: DataItem[][];
 }>) {
   return (
       <div className="w-4/5 h-4/5">
