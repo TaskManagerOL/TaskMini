@@ -1,5 +1,5 @@
 'use client';
-import { TypeDetail,DataItem } from "../../gameboard/layout";
+import { DataItem } from "../gameboardlayout";
 
 function TouchComponent() {
   const handleTouchStart = () => {
@@ -26,7 +26,7 @@ function TouchComponent() {
   }
 }
 
-export default function UserBoardPage({maindata}:{maindata:DataItem[][]}) {
+export default function UserBoardPage({maindata}) {
   const Touch = TouchComponent()
   console.log(maindata);
 
